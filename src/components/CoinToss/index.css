@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.sub-container {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #a35200;
+}
+.content {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #334155;
+}
+.toss-image {
+  height: 180px;
+  width: 180px;
+}
+.button {
+  border: none;
+  border-radius: 12px;
+  background-color: #fcd786;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #a35200;
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+  .sub-container {
+    padding: 40px;
+  }
+  .heading {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .content {
+    font-size: 30px;
+  }
+  .toss-image {
+    height: 250px;
+    width: 250px;
+  }
+  .count-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .count {
+    padding: 20px;
+  }
+}
